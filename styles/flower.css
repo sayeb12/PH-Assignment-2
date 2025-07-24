@@ -235,6 +235,8 @@ nav{
     height: auto;        
 }
 
+/* Made Plant Responsive */
+
 .plant-container{
     text-align: center;
     margin: 0 auto;
@@ -279,6 +281,48 @@ nav{
     font-size: 1rem;
     margin-top: 0;
 }
+
+/* Made Plant Lover Responsive */
+.plant-lover{
+    flex-direction: column;
+    max-width: 360px;  
+}
+
+.badge{
+    display: none;
+}
+
+.plant-lover-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: -30px;
+}
+
+.plant-lover-container ul li{
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-left: -25px;
+}
+
+.inside-badge{
+    width: 100%;
+    height: auto;
+    margin-top: -100px;
+    margin-left: 0;
+}
+
+.plant-lover{
+    width: 100%;
+}
+
+.title-ul{
+    margin-top: -50px;
+    margin-left: 20px;
+    max-width: 350px;
+}
+
+
+
 
 
 
