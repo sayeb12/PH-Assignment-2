@@ -555,9 +555,11 @@ nav{
     margin: 40px 0 15px 0; 
 }
 .title-ul {
-    margin: -50px 0 100px 0; 
+    margin: -50px 0 100px -10px; 
+    padding-right: 0;
     max-width: 100%; 
 }
+
 
 
 /* made Join section Responsive */
@@ -635,7 +637,7 @@ footer{
 
 .container4{
     margin-top: 10px;
-    margin-left: -200px;
+    margin-left: -170px;
 }
 
 
