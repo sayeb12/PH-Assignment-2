@@ -425,87 +425,17 @@ footer{
     margin: 0 auto;
     margin-bottom: -40px; 
 }
-/* Responsive Media Query */
-@media screen and (max-width: 576px) {
-    .latest-deal-title {
-        font-size: 1.5rem;
-    }
 
-    .latest-deal-description {
-        font-size: 1rem;
-        max-width: 100%;
-    }
 
-    .deal-container {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
 
-    .deal-card {
-        width: 100%; /* Full width on mobile */
-        max-width: 350px; /* Limit max width */
-        height: 180px; /* Slightly reduced height */
-    }
-}
 
-/* Responsive Media Query */
-@media screen and (max-width: 576px) {
-    .latest-deal {
-        padding: 30px 10px; /* Reduced padding for mobile */
-    }
-
-    .latest-deal-title {
-        font-size: 1.5rem;
-    }
-
-    .latest-deal-description {
-        font-size: 1rem;
-        max-width: 100%;
-    }
-
-    .deal-container {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .deal-card {
-        width: 100%; /* Full width on mobile */
-        max-width: 350px; /* Limit max width */
-        height: 180px; /* Slightly reduced height */
-    }
-
-    .deal-link {
-        padding: 6px 12px; /* Smaller padding on mobile */
-    }
-}
-/* Responsive Media Query */
-@media screen and (max-width: 576px) {
-    .latest-deal-title {
-        font-size: 1.5rem;
-    }
-
-    .latest-deal-description {
-        font-size: 1rem;
-        max-width: 100%;
-    }
-
-    .deal-container {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .deal-card {
-        width: 100%; /* Full width on mobile */
-        max-width: 350px; /* Limit max width */
-        height: 180px; /* Slightly reduced height */
-    }
-}
 
 /* Responsive Media query */
 @media screen and (max-width: 576px) {
+
+    * {
+        box-sizing: border-box;
+    }
 
 /* Made Nav Responsive */
     .mobile-hide{
@@ -632,7 +562,7 @@ nav{
 
 /* made Join section Responsive */
 .join-container {
-    width: 100vw; 
+    width: 100%; 
     height: 275px; 
     margin: 0;
     padding: 20px 0; 
@@ -642,7 +572,7 @@ nav{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-   
+    margin-top: 250px;
     
 }
 
@@ -709,13 +639,66 @@ footer{
 }
 
 
-.latest-deal{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
-    max-width: 90%;
-}
+/* Made Latest Deal responsive */
+.latest-deal {
+        max-width: 100%; 
+        padding: 0; 
+        margin-top: -50px;
+        margin-bottom: -200px;
+    }
 
+    .latest-deal-content {
+        width: 100%; 
+        max-width: 340px; 
+        margin: 0 auto; 
+    }
+
+    .deal-container {
+        flex-direction: column; 
+        height: auto; 
+        padding: 0; 
+        margin-bottom: 0; 
+    }
+
+    .deal-card {
+        width: 100%;
+        max-width: 360px; 
+        height: 185px; 
+        margin: 0 auto; 
+        padding: 10px; 
+        border-radius: 14px;
+        font-size: 1.25rem;
+    }
+
+    .deal-card a{
+        font-size: 1.25rem;
+    }
+
+    .third {
+        width: 100%; 
+        height: 180px; 
+    }
+
+    .first2-deals {
+        width: 100%; 
+    }
+
+    .latest-deal-title {
+        font-size: 1.5rem; 
+    }
+
+    .latest-deal-description {
+        font-size: 1rem; 
+    }
+
+    .deal-card,
+    .third {
+        background-size: cover;
+        background-position: center;
+        
+    }
+
+   
 }/* End of Responsive Media query */
+
+
